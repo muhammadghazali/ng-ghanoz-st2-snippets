@@ -21,7 +21,7 @@ describe('Service: ${1:ServiceName}', function() {
 ]]>
     </content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>ng-test-service</tabTrigger>
+    <tabTrigger>gnz-test-service</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
     <description>AngularJS Service Test Suites</description>

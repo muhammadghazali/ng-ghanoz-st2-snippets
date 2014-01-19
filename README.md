@@ -30,3 +30,25 @@ Tab trigger:
 ```
 gnz-test-service
 ```
+
+Snippets:
+
+```
+'use strict';
+
+describe('Service: ServiceName', function() {
+
+  var ServiceName;
+
+  // load the directive's module
+  beforeEach(module('ModuleName'));
+
+  beforeEach(inject(function($injector) {
+    ServiceName = $injector.get('ServiceName');
+  }));
+
+  it('should load the module', function() {
+    expect(ServiceName).toBeDefined();
+  });
+});
+```

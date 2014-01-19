@@ -1,0 +1,28 @@
+<snippet>
+    <content>
+        <![CDATA[
+'use strict';
+
+describe('Service: ${1:ServiceName}', function() {
+
+  var ${1:ServiceName};
+
+  // load the directive's module
+  beforeEach(module('${2:ModuleName}'));
+
+  beforeEach(inject(function(\$injector) {
+    ${1:ServiceName} = \$injector.get('${1:ServiceName}');
+  }));
+
+  it('should load the module', function() {
+    expect(${1:ServiceName}).toBeDefined();
+  });
+});
+]]>
+    </content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ng-test-service</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>AngularJS Service Test Suites</description>
+</snippet>

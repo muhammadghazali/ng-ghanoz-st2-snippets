@@ -40,7 +40,7 @@ describe('Service: ServiceName', function() {
 
   var ServiceName;
 
-  // load the directive's module
+  // load the service's module
   beforeEach(module('ModuleName'));
 
   beforeEach(inject(function($injector) {

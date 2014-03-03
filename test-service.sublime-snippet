@@ -7,7 +7,7 @@ describe('Service: ${1:ServiceName}', function() {
 
   var ${1:ServiceName};
 
-  // load the directive's module
+  // load the service's module
   beforeEach(module('${2:ModuleName}'));
 
   beforeEach(inject(function(\$injector) {
